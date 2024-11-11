@@ -47,3 +47,34 @@ Le leggi e i regolamenti specifici operano nell'ecosistema di governance e regol
 | Health Insurance Portability and Accountability Act (HIPAA) | Sanità | Legge statunitense che tutela la sensibilità delle informazioni sanitarie dei cittadini. |
 | Payment Card Industry Data Security Standard (PCI-DSS) | Finanza | Requisiti tecnici e operativi per garantire la gestione sicura dei dati dei titolari di carta da parte di commercianti, fornitori di servizi ed enti che gestiscono carte di pagamento. |
 | Gramm-Leach-Bliley Act (GLBA) | Finanza | Le aziende finanziarie devono proteggere le informazioni personali non pubbliche (NPI) dei loro clienti, implementare programmi di sicurezza informatica, fornire avvisi sulla privacy e divulgare le pratiche di condivisione delle informazioni. |
+
+
+## Framework di Sicurezza Informatica
+
+Un framework di sicurezza informatica include documenti che definiscono come un'organizzazione implementa, gestisce e applica la sicurezza. I componenti principali sono:
+
+- **Politiche**: Dichiarazioni formali che delineano obiettivi, principi e linee guida.
+- **Standard**: Specifiche dettagliate per processi o servizi.
+- **Linee Guida**: Raccomandazioni e best practice non obbligatorie.
+- **Procedure**: Passaggi specifici per eseguire attività.
+- **Baseline**: Requisiti minimi di sicurezza.
+
+### Sviluppo dei Documenti di Governance
+
+Passaggi per creare politiche, standard e linee guida:
+
+1. **Definire scopo e obiettivo**: Chiarire cosa coprirà il documento e il motivo.
+2. **Ricerca e revisione**: Analizzare leggi, normative e standard di settore.
+3. **Redigere il documento**: Creare un testo chiaro e specifico.
+4. **Revisione e approvazione**: Farlo valutare da esperti e ottenere l'approvazione.
+5. **Implementazione**: Comunicare il documento e formare il personale.
+6. **Aggiornamento**: Rivedere e aggiornare periodicamente.
+
+### Esempio Pratico: Creare una Politica per le Password
+
+- **Definire i requisiti**: Lunghezza minima, complessità, scadenza.
+- **Linee guida per l'uso**: Evitare password condivise o predefinite.
+- **Archiviazione sicura**: Usare crittografia per lo storage.
+- **Cambio e reset**: Stabilire frequenze di modifica.
+- **Comunicare e monitorare**: Informare i dipendenti e verificare la conformità.
+
