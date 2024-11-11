@@ -25,25 +25,14 @@ La cybersecurity è un campo in continua evoluzione in cui attori malintenzionat
 
 ### Information Security Governance
 
-La **information security governance** rappresenta la struttura, le politiche, i metodi e le linee guida di un'organizzazione volti a garantire la riservatezza, l'integrità e la disponibilità dei propri asset informativi. Con la crescente complessità delle minacce informatiche, la sua importanza è sempre più rilevante per la gestione dei rischi, la protezione dei dati confidenziali e la conformità alle normative. La governance della sicurezza delle informazioni rientra nelle responsabilità della direzione e include i seguenti processi:
+**L' Information Security Governance** si riferisce alla struttura e alle politiche che un'organizzazione adotta per proteggere la riservatezza, l'integrità e la disponibilità dei dati. Include strategie, politiche, gestione del rischio, misurazione delle performance e compliance. È essenziale per mitigare rischi e proteggere dati sensibili.
 
-- **Strategia**: Sviluppare e implementare una strategia di sicurezza informatica che si allinei con gli obiettivi aziendali generali.
-- **Politiche e procedure**: Redigere politiche e procedure che regolamentano l'uso e la protezione degli asset informativi.
-- **Gestione del rischio**: Condurre valutazioni del rischio per identificare potenziali minacce e implementare misure di mitigazione.
-- **Misurazione delle performance**: Stabilire metriche e KPI per valutare l'efficacia del programma di governance della sicurezza.
-- **Compliance**: Garantire la conformità alle normative e alle best practice di settore.
+**L' Information Security Regulation** comprende i quadri normativi che regolano l'uso e la protezione dei dati, come GDPR e PCI DSS. La conformità è obbligatoria e imposta da enti regolatori.
 
-### Information Security Regulation
-
-La **regulation** della sicurezza informatica si riferisce ai quadri giuridici e normativi che disciplinano l'uso e la protezione degli asset informativi, proteggendo i dati sensibili da accessi non autorizzati, furti e abusi. La compliance con queste normative è obbligatoria e supervisionata da enti governativi o organismi regolatori. Alcuni esempi includono il [GDPR](https://gdpr-info.eu/), il [PCI DSS](https://www.pcisecuritystandards.org/), il [PIPEDA](https://laws-lois.justice.gc.ca/eng/acts/p-8.6/), e molti altri.
-
-### Benefici Principali
-
-Implementare governance e regulation offre i seguenti vantaggi:
-
-- **Migliore Postura di Sicurezza**: Un programma di governance robusto e la conformità alle normative riducono il rischio di violazioni e proteggono i dati sensibili.
-- **Maggiore Fiducia degli Stakeholder**: Dimostra l'impegno dell'organizzazione nella protezione dei dati, aumentando la fiducia degli stakeholder.
-- **Conformità Regolatoria**: Evita sanzioni legali e danni reputazionali derivanti dalla non conformità.
-- **Allineamento con Obiettivi Aziendali**: I framework di governance aiutano a garantire che le strategie di sicurezza siano efficaci e contribuiscano al successo dell'organizzazione.
-- **Decisioni Informate**: Fornisce ai decisori le informazioni necessarie per gestire i rischi della sicurezza informatica.
-- **Vantaggio Competitivo**: La conformità dimostra l'impegno dell'organizzazione nella protezione dei dati sensibili, migliorando la competitività.
+**Benefici Principali**:
+- Migliore sicurezza e riduzione del rischio di violazioni.
+- Maggiore fiducia degli stakeholder.
+- Conformità per evitare sanzioni e danni reputazionali.
+- Allineamento con gli obiettivi aziendali.
+- Decisioni informate sui rischi.
+- Vantaggio competitivo per la dimostrazione di impegno nella protezione dei dati.
