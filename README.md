@@ -27,7 +27,7 @@ La cybersecurity è un campo in continua evoluzione in cui attori malintenzionat
 
 **L' Information Security Governance** si riferisce alla struttura e alle politiche che un'organizzazione adotta per proteggere la riservatezza, l'integrità e la disponibilità dei dati. Include strategie, politiche, gestione del rischio, misurazione delle performance e compliance. È essenziale per mitigare rischi e proteggere dati sensibili.
 
-**L' Information Security Regulation** comprende i quadri normativi che regolano l'uso e la protezione dei dati, come GDPR e PCI DSS. La conformità è obbligatoria e imposta da enti regolatori.
+**L' Information Security Regulation**La regulation della sicurezza informatica si riferisce ai quadri giuridici e normativi che disciplinano l'uso e la protezione degli asset informativi, proteggendo i dati sensibili da accessi non autorizzati, furti e abusi. La compliance con queste normative è obbligatoria e supervisionata da enti governativi o organismi regolatori. Alcuni esempi includono il GDPR, il PCI DSS (Payment Card Industry Data Security Standard), il PIPEDA, e molti altri.
 
 **Benefici Principali**:
 - Migliore sicurezza e riduzione del rischio di violazioni.
@@ -36,3 +36,14 @@ La cybersecurity è un campo in continua evoluzione in cui attori malintenzionat
 - Allineamento con gli obiettivi aziendali.
 - Decisioni informate sui rischi.
 - Vantaggio competitivo per la dimostrazione di impegno nella protezione dei dati.
+
+
+## **Leggi e Regolamenti Rilevanti**  
+Le leggi e i regolamenti specifici operano nell'ecosistema di governance e regolamentazione della sicurezza. Forniscono un quadro strutturato per stabilire standard minimi di conformità, promuovere responsabilità e fiducia, e favorire approcci innovativi per proteggere i sistemi e i dati critici. Offrendo regole chiare e concise, riducono le ambiguità e creano un linguaggio comune per le organizzazioni per misurare la propria postura di sicurezza e garantire la conformità normativa. Di seguito una panoramica di alcune leggi e regolamenti rilevanti:
+
+| **Legge/Regolamento** | **Dominio** | **Descrizione** |
+|-----------------------|-------------|------------------|
+| General Data Protection Regulation (GDPR) | Privacy e Protezione dei Dati | Regolamento dell'Unione Europea che impone requisiti rigorosi su come le organizzazioni gestiscono e proteggono i dati personali dei cittadini e residenti UE. |
+| Health Insurance Portability and Accountability Act (HIPAA) | Sanità | Legge statunitense che tutela la sensibilità delle informazioni sanitarie dei cittadini. |
+| Payment Card Industry Data Security Standard (PCI-DSS) | Finanza | Requisiti tecnici e operativi per garantire la gestione sicura dei dati dei titolari di carta da parte di commercianti, fornitori di servizi ed enti che gestiscono carte di pagamento. |
+| Gramm-Leach-Bliley Act (GLBA) | Finanza | Le aziende finanziarie devono proteggere le informazioni personali non pubbliche (NPI) dei loro clienti, implementare programmi di sicurezza informatica, fornire avvisi sulla privacy e divulgare le pratiche di condivisione delle informazioni. |
