@@ -121,7 +121,7 @@ Un programma GRC ben sviluppato aiuta a gestire i rischi, a rispettare le normat
    - Assicurare una gestione efficace del programma GRC. Esempio: Comitato di sicurezza per rivedere i rischi e le priorità di sicurezza.
 
 5. **Implementare Controlli**:
-   - Applicare controlli tecnici e non per mitigare i rischi. Esempio: Implementare **[firewall](https://www.cisa.gov/firewalls)**, **[Intrusion Prevention System (IPS)](https://www.cisa.gov/what-ips)**, **[Intrusion Detection System (IDS)](https://www.cisa.gov/intrusion-detection-systems)**, e **[Security Information and Event Management (SIEM)](https://www.splunk.com/en_us/solutions/security-information-event-management.html)** per prevenire attacchi esterni e fornire formazione ai dipendenti per migliorare la consapevolezza sulla sicurezza e ridurre il rischio di errori umani.
+   - Applicare controlli tecnici e non per mitigare i rischi. Esempio: Implementare **[firewall]()**, **[Intrusion Prevention System (IPS)]()**, **[Intrusion Detection System (IDS)]()**, e **[Security Information and Event Management (SIEM)]()** per prevenire attacchi esterni e fornire formazione ai dipendenti per migliorare la consapevolezza sulla sicurezza e ridurre il rischio di errori umani.
   
 6. **Monitorare e Misurare le Prestazioni**:
    - Tracciare metriche per misurare l'efficacia del programma. Esempio: Monitoraggio della conformità alle politiche di sicurezza.
