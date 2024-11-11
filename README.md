@@ -53,22 +53,22 @@ Le leggi e i regolamenti specifici operano nell'ecosistema di governance e regol
 
 Un framework di sicurezza informatica include documenti che definiscono come un'organizzazione implementa, gestisce e applica la sicurezza. I componenti principali sono:
 
-- **Politiche**: Dichiarazioni formali che delineano obiettivi, principi e linee guida.
-- **Standard**: Specifiche dettagliate per processi o servizi.
-- **Linee Guida**: Raccomandazioni e best practice non obbligatorie.
-- **Procedure**: Passaggi specifici per eseguire attività.
-- **Baseline**: Requisiti minimi di sicurezza.
+- **Politiche**: dichiarazioni formali che delineano obiettivi, principi e linee guida.
+- **Standard**: specifiche dettagliate per processi o servizi.
+- **Linee Guida**: raccomandazioni e best practice non obbligatorie.
+- **Procedure**: passaggi specifici per eseguire attività.
+- **Baseline**: requisiti minimi di sicurezza.
 
 ### Sviluppo dei Documenti di Governance
 
 Passaggi per creare politiche, standard e linee guida:
 
-1. **Definire scopo e obiettivo**: Chiarire cosa coprirà il documento e il motivo.
-2. **Ricerca e revisione**: Analizzare leggi, normative e standard di settore.
-3. **Redigere il documento**: Creare un testo chiaro e specifico.
-4. **Revisione e approvazione**: Farlo valutare da esperti e ottenere l'approvazione.
-5. **Implementazione**: Comunicare il documento e formare il personale.
-6. **Aggiornamento**: Rivedere e aggiornare periodicamente.
+1. **Definire scopo e obiettivo**: chiarire cosa coprirà il documento e il motivo.
+2. **Ricerca e revisione**: analizzare leggi, normative e standard di settore.
+3. **Redigere il documento**: creare un testo chiaro e specifico, assicurandosi che sia allineato con gli obiettivi e valori dell'organizzazione, e che sia attuabile.
+4. **Revisione e approvazione**: farlo valutare da esperti e ottenere l'approvazione (legal e compliance, senior managers).
+5. **Implementazione**: comunicare il documento e formare il personale in modo che ognuno conosca le proprie responsabilità e segua il documento.
+6. **Aggiornamento**: rivedere e aggiornare periodicamente.
 
 ### Esempio Pratico: Creare una Politica per le Password
 
@@ -78,3 +78,202 @@ Passaggi per creare politiche, standard e linee guida:
 - **Cambio e reset**: Stabilire frequenze di modifica.
 - **Comunicare e monitorare**: Informare i dipendenti e verificare la conformità.
 
+  ### Esempio Pratico: Creare una Procedura di Risposta agli Incidenti
+- **Definire i tipi di incidente**: Accesso non autorizzato, infezioni da malware, violazioni dei dati.
+- **Ruoli e responsabilità**: Identificare i membri del team di risposta, il personale IT, e altri stakeholders come il team legale e la direzione.
+- **Passaggi della risposta**: Contenere l'incidente, analizzare l'impatto, mitigare e ripristinare le operazioni.
+- **Comunicazione e documentazione**: Informare la direzione e documentare il processo per riferimenti futuri.
+- **Revisione e aggiornamento**: Rivedere regolarmente la procedura per migliorarne l'efficacia.
+
+Le organizzazioni spesso seguono standard, framework o checklist già esistenti, come PCI-DSS, GLBA o HIPAA, a seconda dei requisiti normativi, della geografia, degli obiettivi e delle risorse disponibili.
+
+## Governance Risk and Compliance (GRC)
+
+**GRC (Governance, Risk, Compliance)** è fondamentale per mantenere la sicurezza complessiva di un'organizzazione. Il framework GRC integra la governance, la gestione del rischio e la compliance in un approccio olistico che allinea gli obiettivi aziendali e garantisce la conformità alle normative e agli standard del settore.
+
+### Componenti del GRC
+
+1. **Governance**:
+   - Definisce la strategia di sicurezza informatica dell'organizzazione, incluse politiche, standard, framework e metodi di monitoraggio per misurare le prestazioni e i risultati.
+   
+2. **Gestione del Rischio**:
+   - Identifica, valuta e prioritizza i rischi, implementando controlli e strategie di mitigazione. Include il monitoraggio e la valutazione continua del programma di gestione del rischio.
+   
+3. **Compliance**:
+   - Garantisce che l'organizzazione rispetti obblighi legali, normativi e industriali, allineandosi alle politiche interne. Include audit regolari e reporting sui problemi di conformità.
+
+---
+
+### Linee Guida per Sviluppare un Programma GRC
+
+Un programma GRC ben sviluppato aiuta a gestire i rischi, a rispettare le normative e a migliorare la sicurezza complessiva. Ecco i passaggi chiave per implementarlo:
+
+1. **Definire Scopo e Obiettivi**:
+   - Determina l'ambito del programma GRC e gli obiettivi specifici. Esempio: Ridurre i rischi informatici del 50% entro 12 mesi, mantenendo la fiducia dei clienti.
+
+2. **Condurre una Valutazione del Rischio**:
+   - Identificare e valutare i rischi informatici. Esempio: Vulnerabilità nel sistema di gestione dei dati dei clienti a causa di controlli di accesso deboli o software obsoleto. Si fa un'analisi delle priorità, e si sviluppa la risk management strategy. 
+
+3. **Sviluppare Politiche e Procedure**:
+   - Creare politiche per guidare la sicurezza informatica. Esempio: Politiche per l'uso di password forti, procedura di monitoraggio accessi.
+
+4. **Stabilire Processi di Governance**:
+   - Assicurare una gestione efficace del programma GRC. Esempio: Comitato di sicurezza per rivedere i rischi e le priorità di sicurezza.
+
+5. **Implementare Controlli**:
+   - Applicare controlli tecnici e non per mitigare i rischi. Esempio: Implementare **[firewall](https://www.cisa.gov/firewalls)**, **[Intrusion Prevention System (IPS)](https://www.cisa.gov/what-ips)**, **[Intrusion Detection System (IDS)](https://www.cisa.gov/intrusion-detection-systems)**, e **[Security Information and Event Management (SIEM)](https://www.splunk.com/en_us/solutions/security-information-event-management.html)** per prevenire attacchi esterni e fornire formazione ai dipendenti per migliorare la consapevolezza sulla sicurezza e ridurre il rischio di errori umani.
+  
+6. **Monitorare e Misurare le Prestazioni**:
+   - Tracciare metriche per misurare l'efficacia del programma. Esempio: Monitoraggio della conformità alle politiche di sicurezza.
+
+7. **Migliorare Continuamente**:
+   - Rivedere e perfezionare il programma basandosi su feedback, metriche e cambiamenti nel profilo di rischio. Esempio: Analisi post-incidente per identificare cause e migliorare i controlli.
+
+
+### Esempio di Framework GRC nel Settore Finanziario
+
+1. **Attività legate alla Governance**:
+   - Eseguire attività legate alla governance come l'adozione di politiche finanziarie (es. legge sul segreto bancario, politiche di audit e reporting finanziario).
+
+2. **Attività di gestione del rischio**:
+   - Identificare i rischi finanziari, come frodi finanziarie, transazioni fraudolente tramite attacchi informatici, furto di credenziali tramite phishing, ecc.
+
+3. **Attività di Compliance**:
+   - Rispettare le normative come PCI DSS e GLBA. Implementare misure come SSL/TLS per evitare attacchi MITM, gestione automatica delle patch e campagne di sensibilizzazione contro phishing.
+
+## Privacy e Data Protection
+
+In tutti i settori, come quello finanziario, sanitario, governativo e industriale, le normative sulla privacy e protezione dei dati sono fondamentali, poiché trattano informazioni personali identificabili (PII) dei cittadini. Queste normative aiutano a garantire che le informazioni personali siano gestite e conservate in modo responsabile ed etico, stabilendo fiducia, proteggendo i dati personali e mantenendo la conformità normativa.
+
+
+1. **General Data Protection Regulation (GDPR)**  
+   La **[GDPR](https://gdpr-info.eu/)** è una legge sulla protezione dei dati implementata dall'UE a maggio 2018 per proteggere i dati personali. I dati personali sono "qualsiasi dato associato a un individuo che può essere utilizzato per identificarlo direttamente o indirettamente". Gli aspetti principali della legge includono:
+
+   - **Approvazione preventiva**: Deve essere ottenuta prima di raccogliere dati personali.
+   - **Minimizzazione dei dati**: I dati personali devono essere mantenuti al minimo e raccolti solo quando necessario.
+   - **Misure di protezione**: Devono essere adottate misure adeguate per proteggere i dati personali memorizzati.
+
+   **Benefici della GDPR**:
+   - **Applicazione globale**: Si applica a tutte le entità aziendali che operano nell'UE e trattano i dati personali dei residenti dell'UE.
+   - **Conformità rigorosa**: Le aziende possono raccogliere dati personali solo per motivi legittimi e devono informare i titolari dei dati sul loro trattamento.
+   - **Sanzioni per non conformità**: Le violazioni della GDPR comportano multe che si dividono in due livelli:
+     - **Tier 1**: Violazioni più gravi (raccolta non autorizzata dei dati, condivisione senza consenso, ecc.). Pena massima del 4% del fatturato dell'organizzazione o 20 milioni di euro (il più alto).
+     - **Tier 2**: Violazioni meno gravi (notifiche di violazione dei dati, politiche di sicurezza informatica, ecc.). Pena massima del 2% del fatturato o 10 milioni di euro (il più alto).
+
+![image](https://github.com/user-attachments/assets/ebbd0bde-82a8-4125-a878-398f0341c221)
+
+2. **Payment Card Industry Data Security Standard (PCI DSS)**  
+   Il PCI DSS è focalizzato sul mantenimento della sicurezza nelle transazioni con carte di pagamento e sulla protezione contro furti e frodi. È ampiamente utilizzato dalle aziende, soprattutto online, per le transazioni con carte. È stato stabilito dai principali marchi di carte di credito (Visa, MasterCard e American Express). La normativa richiede un controllo rigoroso sull'accesso alle informazioni dei titolari delle carte e il monitoraggio degli accessi non autorizzati, utilizzando misure raccomandate come **firewall per applicazioni web** e **crittografia**.
+
+   **Ulteriori informazioni**: Puoi apprendere di più sullo standard tramite questo [link](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Supporting%20Document/PCI_DSS-QRG-v4_0.pdf).
+
+## NIST Special Publications:
+
+### NIST 800-53 - Sicurezza e Controlli sulla Privacy per i Sistemi Informativi
+
+**NIST 800-53** è una pubblicazione dal titolo "Security and Privacy Controls for Information Systems and Organizations" sviluppata dal **National Institute of Standards and Technology (NIST)** degli Stati Uniti. Fornisce un catalogo di controlli di sicurezza per proteggere la **triade CIA** (Confidenzialità, Integrità, Disponibilità) dei sistemi informativi. La pubblicazione funge da **framework** per le organizzazioni al fine di **valutare e migliorare** la sicurezza e la privacy dei propri sistemi informativi e rispettare le normative e politiche applicabili. Include le migliori pratiche da varie fonti, tra cui standard industriali, linee guida e framework internazionali.
+
+### Punti Chiave:
+- **Controlli di sicurezza e privacy**: NIST 800-53 offre un set completo di controlli che le organizzazioni possono usare per proteggere le loro operazioni, beni, personale e altre organizzazioni da minacce e rischi, come attacchi intenzionali, errori involontari, disastri naturali, guasti infrastrutturali, attività di intelligence straniera e preoccupazioni sulla privacy.
+- **Revisioni e Famiglie di Controllo**: La **Revision 5** di NIST 800-53 organizza i controlli di sicurezza in **20 famiglie**, ciascuna focalizzata su una categoria specifica di sicurezza.
+
+![image](https://github.com/user-attachments/assets/2c7d0e2e-f476-461e-9ffe-325a25084101)
+
+
+### Sviluppare e Implementare un Programma di Sicurezza delle Informazioni basato su NIST 800-53:
+Un controllo cruciale nel framework di NIST 800-53 è la **Gestione del Programma**. Questo controllo impone di stabilire, implementare e monitorare programmi a livello organizzativo per la sicurezza delle informazioni e la privacy, proteggendo i dati elaborati, archiviati o trasmessi dai sistemi. Le seguenti sotto-aree devono essere implementate per garantire una gestione efficace:
+
+- **Identificare e catalogare** gli asset informatici e i rischi associati.
+- **Creare una struttura di governance** e allocare le responsabilità.
+- **Monitorare regolarmente** i controlli implementati per garantire la conformità.
+  
+![image](https://github.com/user-attachments/assets/39f99b49-3ca0-4280-be82-47b5c1d35c0b)
+
+### Best Practices per la Conformità a NIST 800-53:
+
+![image](https://github.com/user-attachments/assets/cbef4f5b-3ba5-4bdf-bde2-5d40d45156ee)
+
+1. **Scoperta e Mappatura**: le aziende devono condurre un processo di scoperta approfondito per riconoscere e catalogare i propri asset dati, sistemi informativi e le minacce associate.
+2. **Mappatura dei Controlli**: le famiglie di controlli NIST 800-53 devono essere mappate agli asset e ai rischi identificati, facilitando l'adozione di un approccio strutturato.
+3. **Struttura di Governance**: è essenziale creare una struttura di governance chiara, allocando i compiti e definendo le procedure di implementazione e manutenzione.
+4. **Monitoraggio e Valutazione**: i controlli devono essere monitorati regolarmente per identificare eventuali problemi di sicurezza e assicurare la conformità.
+5. **Audit e Miglioramento Continuo**: è fondamentale condurre valutazioni periodiche e migliorare l'implementazione dei controlli in base ai risultati ottenuti.
+
+### NIST 800-63B - Linee Guida sull'Identità Digitale
+La **NIST Special Publication 800-63B** fornisce linee guida per l'autenticazione e la verifica dell'identità degli individui che accedono a servizi digitali, sistemi e reti. Le linee guida riguardano:
+- **Diversi livelli di garanzia dell'identità**, da base ad alta garanzia.
+- **Fattori di autenticazione**: come password, biometria e token.
+- **Gestione sicura delle credenziali**: raccomandazioni per la gestione sicura e l'archiviazione delle credenziali utente.
+
+Queste linee guida sono cruciali per le organizzazioni che desiderano garantire la sicurezza delle identità digitali nei loro sistemi.
+
+## Information Security Management & Compliance
+
+**Definizione di Information Security (IS) Management:**
+La gestione della sicurezza delle informazioni comprende la pianificazione strategica, l'esecuzione e l'amministrazione continua delle misure di sicurezza per proteggere gli asset informativi da accessi, utilizzi, divulgazioni, interruzioni, alterazioni e distruzioni non autorizzati. Include:
+- **Valutazione e identificazione del rischio**
+- **Sviluppo di controlli e procedure di sicurezza**
+- **Pianificazione per la risposta agli incidenti**
+- **Formazione sulla consapevolezza della sicurezza**
+
+**Definizione di Compliance:**  
+Rispettare le leggi, i regolamenti, gli standard contrattuali e settoriali legati alla sicurezza delle informazioni.
+
+### ISO/IEC 27001
+
+**ISO 27001** è uno standard internazionale per **pianificare, sviluppare, gestire e aggiornare** un Sistema di Gestione della Sicurezza delle Informazioni (ISMS) di un'organizzazione.  
+Sviluppato dall'Organizzazione Internazionale per la Standardizzazione (ISO) e la Commissione Elettrotecnica Internazionale (IEC).
+
+![image](https://github.com/user-attachments/assets/4ba7376d-9d9c-4ade-8920-442a11e16354)
+
+**Componenti principali di ISO 27001:**
+- **Ambito:** Definisce i confini dell'ISMS, inclusi gli asset e i processi coperti.
+- **Politica di Sicurezza delle Informazioni:** Documento di alto livello che definisce l'approccio dell'organizzazione alla sicurezza.
+- **Valutazione del rischio:** Identificazione e valutazione dei rischi per la riservatezza, l'integrità e la disponibilità delle informazioni.
+- **Trattamento del rischio:** Selezione e implementazione dei controlli per ridurre i rischi a un livello accettabile.
+- **Dichiarazione di Applicabilità (SoA):** Documento che specifica i controlli applicabili.
+- **Audit interno:** Revisione periodica dell'ISMS per garantire che funzioni efficacemente.
+- **Revisione della gestione:** Valutazione regolare delle prestazioni dell'ISMS.
+
+**Vantaggi dell'ISO 27001:**
+- Costruzione di un ISMS ben progettato che richiede una valutazione approfondita delle procedure di sicurezza.
+- Creazione di processi chiari allineati con i requisiti ISO 27001 (es. controllo accessi, risposta agli incidenti).
+- Supporto della leadership e allocazione delle risorse per un'implementazione efficace.
+- Monitoraggio regolare e miglioramento continuo dell'ISMS.
+
+
+### Service Organisation Control 2 (SOC 2)
+
+**SOC 2** è un framework di conformità/audit sviluppato dall'American Institute of Certified Public Accountants (AICPA). Si concentra sulla valutazione dell'efficacia della sicurezza dei dati di un'azienda, basato sulla triade CIA (Confidentiality, Integrity, Availability).
+
+**Scopo di SOC 2:**
+Valutare e garantire che un'organizzazione di servizi protegga i dati sensibili dei clienti e rispetti rigorosi standard di privacy e sicurezza.
+
+**Componenti principali di SOC 2:**
+- **Confidenzialità:** Protezione dei dati sensibili.
+- **Disponibilità:** Garantire che i sistemi siano operativi quando necessario.
+- **Integrità:** Protezione dell'accuratezza e completezza dei dati.
+- **Privacy:** Protezione delle informazioni personali.
+
+**Audit SOC 2:**
+Gli auditor indipendenti esaminano i controlli di sicurezza relativi alla confidenzialità, disponibilità, integrità e privacy, fornendo un rapporto che descrive l'efficacia di questi controlli.
+
+**Fasi della pianificazione e conduzione di un Audit SOC 2:**
+1. **Determinare l'ambito:** Definire i sistemi e i processi rilevanti.
+2. **Scegliere un auditor qualificato:** Esperienza nell’audit SOC 2.
+3. **Pianificare l'audit:** Definire tempistiche, ambito e criteri dell'audit.
+4. **Prepararsi all'audit:** Rivedere i controlli di sicurezza e privacy e identificare eventuali lacune.
+5. **Condurre l'audit:** Test dei controlli, interviste, e revisione della documentazione.
+6. **Ricevere il rapporto di audit:** Contiene i risultati dell’audit e raccomandazioni per miglioramenti.
+
+**Controlli generali verificati durante un audit SOC 2:**
+- Sicurezza fisica dei locali.
+- Sicurezza della rete.
+- Crittografia dei dati.
+- Backup e recupero.
+- Formazione e consapevolezza dei dipendenti.
+
+![image](https://github.com/user-attachments/assets/32d4de7b-eb0c-47d8-8c6b-4627d9ac1f56)
+
+**Protezione della Sicurezza delle Informazioni fornita da SOC 2:**
+SOC 2 assicura che i fornitori di servizi terzi trattino e conservino le informazioni sensibili in modo sicuro.
