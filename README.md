@@ -23,6 +23,9 @@ La cybersecurity è un campo in continua evoluzione in cui attori malintenzionat
 
 **Compliance**: Stato di aderenza a leggi, regolamenti e standard applicabili a un'organizzazione o sistema.
 
+![image](https://github.com/user-attachments/assets/dde5eab0-64e7-42ab-b44e-c89b3561e622)
+
+
 ### Information Security Governance
 
 **L' Information Security Governance** si riferisce alla struttura e alle politiche che un'organizzazione adotta per proteggere la riservatezza, l'integrità e la disponibilità dei dati. Include strategie, politiche, gestione del rischio, misurazione delle performance e compliance. È essenziale per mitigare rischi e proteggere dati sensibili.
