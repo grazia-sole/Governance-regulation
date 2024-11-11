@@ -78,7 +78,7 @@ Passaggi per creare politiche, standard e linee guida:
 - **Cambio e reset**: Stabilire frequenze di modifica.
 - **Comunicare e monitorare**: Informare i dipendenti e verificare la conformità.
 
-  ### Esempio Pratico: Creare una Procedura di Risposta agli Incidenti
+### Esempio Pratico: Creare una Procedura di Risposta agli Incidenti
 - **Definire i tipi di incidente**: Accesso non autorizzato, infezioni da malware, violazioni dei dati.
 - **Ruoli e responsabilità**: Identificare i membri del team di risposta, il personale IT, e altri stakeholders come il team legale e la direzione.
 - **Passaggi della risposta**: Contenere l'incidente, analizzare l'impatto, mitigare e ripristinare le operazioni.
