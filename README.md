@@ -39,7 +39,7 @@ La cybersecurity è un campo in continua evoluzione in cui attori malintenzionat
 
 
 ## **Leggi e Regolamenti Rilevanti**  
-Le leggi e i regolamenti specifici operano nell'ecosistema di governance e regolamentazione della sicurezza. Forniscono un quadro strutturato per stabilire standard minimi di conformità, promuovere responsabilità e fiducia, e favorire approcci innovativi per proteggere i sistemi e i dati critici. Offrendo regole chiare e concise, riducono le ambiguità e creano un linguaggio comune per le organizzazioni per misurare la propria postura di sicurezza e garantire la conformità normativa. Di seguito una panoramica di alcune leggi e regolamenti rilevanti:
+Le leggi e i regolamenti specifici operano nell'ecosistema di governance e regolamentazione della sicurezza. Forniscono un quadro strutturato per stabilire standard minimi di conformità, promuovere responsabilità e fiducia, e favorire approcci innovativi per proteggere i sistemi e i dati critici.Inoltre, riducono le ambiguità e creano un linguaggio comune per le organizzazioni per garantire la conformità normativa. 
 
 | **Legge/Regolamento** | **Dominio** | **Descrizione** |
 |-----------------------|-------------|------------------|
