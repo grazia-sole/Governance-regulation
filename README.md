@@ -132,6 +132,42 @@ Un programma GRC ben sviluppato aiuta a gestire i rischi, a rispettare le normat
 7. **Migliorare Continuamente**:
    - Rivedere e perfezionare il programma basandosi su feedback, metriche e cambiamenti nel profilo di rischio. Esempio: Analisi post-incidente per identificare cause e migliorare i controlli.
 
+---
+
+**Breve parentesi su IDS, IPS, SIEM:**
+
+### 1. Intrusion Detection System (IDS)
+**IDS** è un sistema progettato per monitorare e analizzare il traffico di rete alla ricerca di attività sospette o non autorizzate. Ha lo scopo di rilevare possibili attacchi o violazioni della sicurezza e di generare avvisi per gli amministratori di sistema. Tuttavia, un IDS non prende misure attive per bloccare o prevenire l'intrusione; si limita a segnalare l'anomalia.
+
+- **Tipologie di IDS**:
+  - **Network-based IDS (NIDS)**: Monitora il traffico su una rete.
+  - **Host-based IDS (HIDS)**: Monitora attività sospette su un singolo computer o host.
+
+- **Esempio**: Se un intruso tenta di eseguire uno **scan** della rete per rilevare porte aperte, un IDS come **Snort** (configurato come IDS) può rilevare questa attività e generare un avviso. Snort utilizza firme di attacco conosciute per rilevare anomalie e minacce.
+
+### 2. Intrusion Prevention System (IPS)
+**IPS** è un sistema che ha le stesse funzionalità di rilevamento dell'IDS, ma con un'azione aggiuntiva: non solo rileva, ma previene l'attacco in tempo reale. Quando rileva una potenziale minaccia, un IPS può bloccare il traffico sospetto, interrompere connessioni o eseguire altre azioni per fermare l'attacco prima che causi danni.
+
+- **Funzionamento**: Un IPS è posizionato "in-line" nel flusso di rete, cioè analizza il traffico in transito e può immediatamente bloccare pacchetti dannosi.
+- **Esempio**: Un IPS basato su **Snort** configurato in modalità attiva può rilevare una serie di tentativi di forza bruta su un server e bloccare automaticamente l'indirizzo IP da cui provengono i tentativi, impedendo l'accesso.
+
+### 3. Security Information and Event Management (SIEM)
+**SIEM** è una soluzione più completa che raccoglie, analizza e gestisce i dati di sicurezza provenienti da vari sistemi della rete, come firewall, IDS/IPS, antivirus e altri dispositivi di sicurezza. Lo scopo principale di un SIEM è correlare eventi e log di sistema per fornire una visione globale della sicurezza della rete e per rilevare minacce complesse che potrebbero non essere rilevabili dai singoli sistemi.
+
+- **Caratteristiche**:
+  - **Raccolta centralizzata di log**: Aggrega log da varie fonti.
+  - **Correlazione degli eventi**: Analizza i dati per identificare schemi sospetti.
+  - **Notifiche e report**: Genera avvisi e report per supportare la risposta agli incidenti.
+- **Esempio**: **Splunk** o **IBM QRadar** sono esempi di sistemi SIEM. Un SIEM può rilevare un attacco persistente che coinvolge diverse fasi: per esempio, se un attaccante esegue prima un attacco di phishing per ottenere credenziali e successivamente utilizza queste credenziali per accedere a dati sensibili, il SIEM può correlare gli eventi dai log di posta elettronica e dagli accessi al server per rilevare e segnalare l'attività sospetta.
+
+### Sintesi delle differenze:
+- **IDS**: Monitora e avvisa senza intervenire.
+- **IPS**: Monitora, avvisa e interviene per prevenire l'attacco.
+- **SIEM**: Raccoglie e analizza dati di sicurezza da molte fonti per fornire una visione completa e rilevare minacce complesse.
+
+Questi strumenti sono spesso usati insieme per garantire una strategia di sicurezza robusta, con IDS/IPS che forniscono la protezione immediata e il SIEM che gestisce e analizza gli eventi a livello strategico.
+
+---
 
 ### Esempio di Framework GRC nel Settore Finanziario
 
