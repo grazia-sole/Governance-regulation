@@ -134,7 +134,7 @@ Un programma GRC ben sviluppato aiuta a gestire i rischi, a rispettare le normat
 
 ---
 
-**Breve parentesi su IDS, IPS, SIEM:**
+## **Breve parentesi su IDS, IPS, SIEM:**
 
 ### 1. Intrusion Detection System (IDS)
 **IDS** è un sistema progettato per monitorare e analizzare il traffico di rete alla ricerca di attività sospette o non autorizzate. Ha lo scopo di rilevare possibili attacchi o violazioni della sicurezza e di generare avvisi per gli amministratori di sistema. Tuttavia, un IDS non prende misure attive per bloccare o prevenire l'intrusione; si limita a segnalare l'anomalia.
